@@ -30,11 +30,19 @@ def get_instances_matching_tag(partial_tag):
 def start_both_rjt_instances():
     """
     Start both rjt instances.  Only starts an instance if it is stopped.
-    If an instance is pending, it will be left alone, assuming it is starting
-    If an instance is stopping
+    If an instance is running or pending, it will be left alone, assuming it will start (become running).
+    If an instance is not stopped or pending, we return failure.
 
     Returns:
         bool - success
+
+    All statuses:
+        pending
+        running
+        shutting-down
+        terminated
+        stopping
+        stopped
     """
     instances = get_instances_matching_tag('rjt')
     if len(instances) != 2:
@@ -45,15 +53,17 @@ def start_both_rjt_instances():
            print( "Starting instance: ", inst.id)
            inst.start()
         # any of these statuses cannot be started
-        elif inst.state.get('Name') in ['shutting-down', 'terminated', 'stopping']:
+        elif inst.state.get('Name') == 'pending':
+            print('Instance ', inst.id, " is already starting (pending")
+        else:
             return False
     return True
 
 def stop_both_rjt_instances():
     """
     Stop both rjt instances.  Only stops an instance if it is running.
-    If an instance is pending, it will be left alone, assuming it is starting
-    If an instance is stopping
+    If an instance is stopping, it will be left alone, assuming it will stop.
+    If an instance is shutting-down
 
     Returns:
         bool - success
@@ -64,16 +74,19 @@ def stop_both_rjt_instances():
             print( "Stopping instance: ", inst.id)
             inst.stop()
         # This status cannot be stopped
-        elif inst.state.get('Name') in ['pending']:
+        elif inst.state.get('Name') == 'stopping':
+            print('Instance ', inst.id, " is already stopping")
+        else:
             return False
     return True
 
 
 def main():
     # success = start_both_rjt_instances()
+    # print('Did they start: ', success)
     success = stop_both_rjt_instances()
+    print('Did they stop: ', success)
     #success = toggle_rjt_instances()
-    print('Did it work: ', success)
 
 
 if __name__ == "__main__":
