@@ -76,7 +76,9 @@ def stop_both_rjt_instances():
         state = inst.state.get('Name')
         if  state == "running":
             print( "Stopping instance", inst.id)
-            inst.stop()
+            inst_stop = inst.stop()
+            print(type(inst_stop))
+            pprint(inst_stop)
         elif state == 'stopping':
             print('Instance', inst.id, "is already stopping")
         elif state == 'stopped':
@@ -86,7 +88,7 @@ def stop_both_rjt_instances():
             return False
 
     start = time.time()
-    instances[0].wait_until_stopped().wait()
+    instances[0].wait_until_stopped()
     end = time.time()
     print("Time to stop", end - start)
 
