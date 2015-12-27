@@ -4,5 +4,6 @@ print('hey')
 
 fo = open('read_write.py')
 lineslist = fo.readlines()
-for line in lineslist:
-    print(line, end="")
+for l in [line.rstrip() for line in lineslist]:
+    # print(line, end="")
+    print(l)
