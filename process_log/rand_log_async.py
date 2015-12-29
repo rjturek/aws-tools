@@ -12,27 +12,26 @@ services = ['b', 'c', 'w', 'x', 'y', 'z']
 out_stream = None
 
 async def gen_log_line():
-    for _ in range(2000):
-        sleep = random.randint(4, 300)/100
-        await asyncio.sleep(sleep)
+    sleep = random.randint(4, 300)/100
+    await asyncio.sleep(sleep)
 
-        cli_idx = random.randint(0, len(clients) - 1)
-        cli = clients[cli_idx]
+    cli_idx = random.randint(0, len(clients) - 1)
+    cli = clients[cli_idx]
 
-        tmp_svcs = list(services)
-        if cli in services:
-            tmp_svcs.remove(cli)
+    tmp_svcs = list(services)
+    if cli in services:
+        tmp_svcs.remove(cli)
 
-        svc_idx = random.randint(0, len(tmp_svcs) - 1)
-        svc = tmp_svcs[svc_idx]
+    svc_idx = random.randint(0, len(tmp_svcs) - 1)
+    svc = tmp_svcs[svc_idx]
 
-        if cli == svc:
-            raise Exception(cli + svc)
+    if cli == svc:
+        raise Exception(cli + svc)
 
-        return str("client=%s service=%s time=%s" % (cli, svc, str(sleep)))
+    return str("client=%s service=%s time=%s" % (cli, svc, str(sleep)))
 
 async def main():
-    while True:
+    for _ in range(8):
         print(await gen_log_line())
 
 
