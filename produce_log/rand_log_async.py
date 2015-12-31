@@ -13,7 +13,7 @@ out_stream = None
 
 async def gen_log_line(future):
 
-    sleep = random.randint(4, 400)/100
+    sleep = random.randint(4, 4)/1000
     await asyncio.sleep(sleep)
 
     cli_idx = random.randint(0, len(clients) - 1)
@@ -29,7 +29,7 @@ async def gen_log_line(future):
     if cli == svc:
         raise Exception(cli + svc)
 
-    future.set_result("client=%s service=%s time=%s" % (cli, svc, str(sleep)))
+    print("client=%s service=%s time=%s" % (cli, svc, str(sleep)))
 
 
 async def main(loop):

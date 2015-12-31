@@ -2,11 +2,11 @@
 # import site
 # print(site._init_pathinfo())
 
-from process_log import rand_log
-import sys
 import io
-
 import time
+
+from produce_log import rand_log
+
 
 def follow(thefile):
     # thefile.seek(0,2)      # Go to the end of the file
