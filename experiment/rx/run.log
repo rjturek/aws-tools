@@ -1,0 +1,1801 @@
+import _frozen_importlib # frozen
+import _imp # builtin
+import sys # builtin
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'posix' # <class '_frozen_importlib.BuiltinImporter'>
+import _thread # previously loaded ('_thread')
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import _weakref # previously loaded ('_weakref')
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+# installing zipimport hook
+import 'zipimport' # <class '_frozen_importlib.BuiltinImporter'>
+# installed zipimport hook
+# /Users/rjt/anaconda/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/encodings/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/encodings/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/codecs.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/codecs.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/codecs.cpython-35.pyc'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <_frozen_importlib_external.SourceFileLoader object at 0x100782278>
+# /Users/rjt/anaconda/lib/python3.5/encodings/__pycache__/aliases.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/encodings/aliases.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/encodings/__pycache__/aliases.cpython-35.pyc'
+import 'encodings.aliases' # <_frozen_importlib_external.SourceFileLoader object at 0x100791e48>
+import 'encodings' # <_frozen_importlib_external.SourceFileLoader object at 0x10077be48>
+# /Users/rjt/anaconda/lib/python3.5/encodings/__pycache__/utf_8.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/encodings/utf_8.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/encodings/__pycache__/utf_8.cpython-35.pyc'
+import 'encodings.utf_8' # <_frozen_importlib_external.SourceFileLoader object at 0x10079fc18>
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+# /Users/rjt/anaconda/lib/python3.5/encodings/__pycache__/latin_1.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/encodings/latin_1.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/encodings/__pycache__/latin_1.cpython-35.pyc'
+import 'encodings.latin_1' # <_frozen_importlib_external.SourceFileLoader object at 0x1007a26d8>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/io.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/io.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/io.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/abc.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/abc.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/abc.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/_weakrefset.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/_weakrefset.cpython-35.pyc'
+import '_weakrefset' # <_frozen_importlib_external.SourceFileLoader object at 0x1007a7358>
+import 'abc' # <_frozen_importlib_external.SourceFileLoader object at 0x1007a2b38>
+import 'io' # <_frozen_importlib_external.SourceFileLoader object at 0x1007a28d0>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/_bootlocale.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/_bootlocale.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/_bootlocale.cpython-35.pyc'
+import '_locale' # <class '_frozen_importlib.BuiltinImporter'>
+import '_bootlocale' # <_frozen_importlib_external.SourceFileLoader object at 0x1007afa90>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/site.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/site.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/os.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/os.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/os.cpython-35.pyc'
+import 'errno' # <class '_frozen_importlib.BuiltinImporter'>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/stat.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/stat.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/stat.cpython-35.pyc'
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <_frozen_importlib_external.SourceFileLoader object at 0x101a0df60>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/posixpath.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/posixpath.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/posixpath.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/genericpath.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/genericpath.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/genericpath.cpython-35.pyc'
+import 'genericpath' # <_frozen_importlib_external.SourceFileLoader object at 0x101a13860>
+import 'posixpath' # <_frozen_importlib_external.SourceFileLoader object at 0x101a0f320>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/_collections_abc.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/_collections_abc.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/_collections_abc.cpython-35.pyc'
+import '_collections_abc' # <_frozen_importlib_external.SourceFileLoader object at 0x101a13eb8>
+import 'os' # <_frozen_importlib_external.SourceFileLoader object at 0x1007bae48>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/_sitebuiltins.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/_sitebuiltins.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/_sitebuiltins.cpython-35.pyc'
+import '_sitebuiltins' # <_frozen_importlib_external.SourceFileLoader object at 0x101a00630>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/sysconfig.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/sysconfig.cpython-35.pyc'
+import 'sysconfig' # <_frozen_importlib_external.SourceFileLoader object at 0x101a51f28>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/_sysconfigdata.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/_sysconfigdata.cpython-35.pyc'
+import '_sysconfigdata' # <_frozen_importlib_external.SourceFileLoader object at 0x101a5a7b8>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/_osx_support.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/_osx_support.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/_osx_support.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/re.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/re.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/re.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/sre_compile.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc'
+import '_sre' # <class '_frozen_importlib.BuiltinImporter'>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/sre_parse.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/sre_constants.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/sre_constants.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/sre_constants.cpython-35.pyc'
+import 'sre_constants' # <_frozen_importlib_external.SourceFileLoader object at 0x101a7ee80>
+import 'sre_parse' # <_frozen_importlib_external.SourceFileLoader object at 0x101a78588>
+import 'sre_compile' # <_frozen_importlib_external.SourceFileLoader object at 0x101a745c0>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/copyreg.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/copyreg.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/copyreg.cpython-35.pyc'
+import 'copyreg' # <_frozen_importlib_external.SourceFileLoader object at 0x101ac2048>
+import 're' # <_frozen_importlib_external.SourceFileLoader object at 0x101a6f710>
+import '_osx_support' # <_frozen_importlib_external.SourceFileLoader object at 0x101a65898>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/types.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/types.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/types.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/functools.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/functools.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/functools.cpython-35.pyc'
+import '_functools' # <class '_frozen_importlib.BuiltinImporter'>
+# /Users/rjt/anaconda/lib/python3.5/collections/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/collections/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/collections/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/operator.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/operator.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/operator.cpython-35.pyc'
+import '_operator' # <class '_frozen_importlib.BuiltinImporter'>
+import 'operator' # <_frozen_importlib_external.SourceFileLoader object at 0x101c06b38>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/keyword.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/keyword.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/keyword.cpython-35.pyc'
+import 'keyword' # <_frozen_importlib_external.SourceFileLoader object at 0x101c0fe48>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/heapq.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/heapq.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/heapq.cpython-35.pyc'
+# extension module '_heapq' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_heapq.cpython-35m-darwin.so'
+# extension module '_heapq' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_heapq.cpython-35m-darwin.so'
+import '_heapq' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101c13b70>
+import 'heapq' # <_frozen_importlib_external.SourceFileLoader object at 0x101c13668>
+import 'itertools' # <class '_frozen_importlib.BuiltinImporter'>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/reprlib.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/reprlib.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/reprlib.cpython-35.pyc'
+import 'reprlib' # <_frozen_importlib_external.SourceFileLoader object at 0x101c0f6d8>
+import '_collections' # <class '_frozen_importlib.BuiltinImporter'>
+import 'collections' # <_frozen_importlib_external.SourceFileLoader object at 0x101adb6d8>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/weakref.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/weakref.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/weakref.cpython-35.pyc'
+import 'weakref' # <_frozen_importlib_external.SourceFileLoader object at 0x101c217b8>
+import 'functools' # <_frozen_importlib_external.SourceFileLoader object at 0x101ace470>
+# /Users/rjt/anaconda/lib/python3.5/collections/__pycache__/abc.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/collections/abc.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/collections/__pycache__/abc.cpython-35.pyc'
+import 'collections.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x101ad4390>
+import 'types' # <_frozen_importlib_external.SourceFileLoader object at 0x101ac2780>
+# destroy zope
+# /Users/rjt/anaconda/lib/python3.5/encodings/__pycache__/cp437.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/encodings/cp437.pyPython 3.5.1 |Anaconda 2.4.0 (x86_64)| (default, Dec  7 2015, 11:24:55) 
+[GCC 4.2.1 (Apple Inc. build 5577)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+
+# code object from '/Users/rjt/anaconda/lib/python3.5/encodings/__pycache__/cp437.cpython-35.pyc'
+import 'encodings.cp437' # <_frozen_importlib_external.SourceFileLoader object at 0x101ad4c50>
+# zipimport: found 110 names in '/Users/rjt/anaconda/lib/python3.5/site-packages/setuptools-18.8.1-py3.5.egg'
+import 'site' # <_frozen_importlib_external.SourceFileLoader object at 0x1007a39b0>
+# /Users/rjt/anaconda/lib/python3.5/distutils/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/distutils/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/distutils/__pycache__/__init__.cpython-35.pyc'
+import 'distutils' # <_frozen_importlib_external.SourceFileLoader object at 0x101c3d198>
+# /Users/rjt/anaconda/lib/python3.5/distutils/__pycache__/sysconfig.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/distutils/sysconfig.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/distutils/__pycache__/sysconfig.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/distutils/__pycache__/errors.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/distutils/errors.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/distutils/__pycache__/errors.cpython-35.pyc'
+import 'distutils.errors' # <_frozen_importlib_external.SourceFileLoader object at 0x101c3dba8>
+import 'distutils.sysconfig' # <_frozen_importlib_external.SourceFileLoader object at 0x101c3d588>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/selectors.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/selectors.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/selectors.cpython-35.pyc'
+# extension module 'math' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/math.cpython-35m-darwin.so'
+# extension module 'math' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/math.cpython-35m-darwin.so'
+import 'math' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101c61e80>
+# extension module 'select' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/select.cpython-35m-darwin.so'
+# extension module 'select' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/select.cpython-35m-darwin.so'
+import 'select' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101c677f0>
+import 'selectors' # <_frozen_importlib_external.SourceFileLoader object at 0x101c5a320>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/base_events.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/base_events.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/base_events.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/concurrent/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/concurrent/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/concurrent/__pycache__/__init__.cpython-35.pyc'
+import 'concurrent' # <_frozen_importlib_external.SourceFileLoader object at 0x101c796a0>
+# /Users/rjt/anaconda/lib/python3.5/concurrent/futures/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/concurrent/futures/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/concurrent/futures/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/concurrent/futures/__pycache__/_base.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/concurrent/futures/_base.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/concurrent/futures/__pycache__/_base.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/logging/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/logging/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/logging/__pycache__/__init__.cpython-35.pyc'
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/traceback.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/traceback.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/traceback.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/linecache.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/linecache.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/linecache.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/tokenize.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/tokenize.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/tokenize.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/token.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/token.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/token.cpython-35.pyc'
+import 'token' # <_frozen_importlib_external.SourceFileLoader object at 0x101cc53c8>
+import 'tokenize' # <_frozen_importlib_external.SourceFileLoader object at 0x101caeeb8>
+import 'linecache' # <_frozen_importlib_external.SourceFileLoader object at 0x101caecc0>
+import 'traceback' # <_frozen_importlib_external.SourceFileLoader object at 0x101c9af60>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/warnings.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/warnings.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/warnings.cpython-35.pyc'
+import 'warnings' # <_frozen_importlib_external.SourceFileLoader object at 0x101cb9978>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/string.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/string.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/string.cpython-35.pyc'
+import '_string' # <class '_frozen_importlib.BuiltinImporter'>
+import 'string' # <_frozen_importlib_external.SourceFileLoader object at 0x101c611d0>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/threading.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/threading.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/threading.cpython-35.pyc'
+import 'threading' # <_frozen_importlib_external.SourceFileLoader object at 0x101cceb00>
+import 'atexit' # <class '_frozen_importlib.BuiltinImporter'>
+import 'logging' # <_frozen_importlib_external.SourceFileLoader object at 0x101c82a90>
+import 'concurrent.futures._base' # <_frozen_importlib_external.SourceFileLoader object at 0x101c79978>
+# /Users/rjt/anaconda/lib/python3.5/concurrent/futures/__pycache__/process.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/concurrent/futures/process.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/concurrent/futures/__pycache__/process.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/queue.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/queue.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/queue.cpython-35.pyc'
+import 'queue' # <_frozen_importlib_external.SourceFileLoader object at 0x101e040b8>
+# /Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/multiprocessing/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/context.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/multiprocessing/context.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/context.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/process.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/multiprocessing/process.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/process.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/signal.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/signal.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/signal.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/enum.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/enum.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/enum.cpython-35.pyc'
+import 'enum' # <_frozen_importlib_external.SourceFileLoader object at 0x101e1b358>
+import 'signal' # <_frozen_importlib_external.SourceFileLoader object at 0x101e15be0>
+import 'multiprocessing.process' # <_frozen_importlib_external.SourceFileLoader object at 0x101e15240>
+import 'multiprocessing.context' # <_frozen_importlib_external.SourceFileLoader object at 0x101e080b8>
+import 'multiprocessing' # <_frozen_importlib_external.SourceFileLoader object at 0x101e04b70>
+# /Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/connection.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/multiprocessing/connection.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/connection.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/socket.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/socket.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/socket.cpython-35.pyc'
+# extension module '_socket' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_socket.cpython-35m-darwin.so'
+# extension module '_socket' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_socket.cpython-35m-darwin.so'
+import '_socket' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101eab160>
+import 'socket' # <_frozen_importlib_external.SourceFileLoader object at 0x101e3ab38>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/struct.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/struct.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/struct.cpython-35.pyc'
+# extension module '_struct' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_struct.cpython-35m-darwin.so'
+# extension module '_struct' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_struct.cpython-35m-darwin.so'
+import '_struct' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101eabbe0>
+import 'struct' # <_frozen_importlib_external.SourceFileLoader object at 0x101ea6128>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/tempfile.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/tempfile.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/tempfile.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/shutil.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/shutil.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/shutil.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/fnmatch.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/fnmatch.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/fnmatch.cpython-35.pyc'
+import 'fnmatch' # <_frozen_importlib_external.SourceFileLoader object at 0x101ec8438>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/tarfile.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/tarfile.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/tarfile.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/copy.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/copy.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/copy.cpython-35.pyc'
+import 'copy' # <_frozen_importlib_external.SourceFileLoader object at 0x101ee3ef0>
+# extension module 'grp' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/grp.cpython-35m-darwin.so'
+# extension module 'grp' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/grp.cpython-35m-darwin.so'
+import 'grp' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101eee6d8>
+import 'pwd' # <class '_frozen_importlib.BuiltinImporter'>
+import 'tarfile' # <_frozen_importlib_external.SourceFileLoader object at 0x101ec87f0>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/bz2.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/bz2.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/bz2.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/_compression.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/_compression.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/_compression.cpython-35.pyc'
+import '_compression' # <_frozen_importlib_external.SourceFileLoader object at 0x101efa518>
+# extension module '_bz2' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_bz2.cpython-35m-darwin.so'
+# extension module '_bz2' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_bz2.cpython-35m-darwin.so'
+import '_bz2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101efae10>
+import 'bz2' # <_frozen_importlib_external.SourceFileLoader object at 0x101ec8ac8>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/lzma.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/lzma.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/lzma.cpython-35.pyc'
+# extension module '_lzma' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_lzma.cpython-35m-darwin.so'
+# extension module '_lzma' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_lzma.cpython-35m-darwin.so'
+import '_lzma' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101f06a20>
+import 'lzma' # <_frozen_importlib_external.SourceFileLoader object at 0x101f06128>
+import 'shutil' # <_frozen_importlib_external.SourceFileLoader object at 0x101ebb7f0>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/random.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/random.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/random.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/hashlib.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/hashlib.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/hashlib.cpython-35.pyc'
+# extension module '_hashlib' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_hashlib.cpython-35m-darwin.so'
+# extension module '_hashlib' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_hashlib.cpython-35m-darwin.so'
+import '_hashlib' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101f16278>
+import 'hashlib' # <_frozen_importlib_external.SourceFileLoader object at 0x101f126a0>
+# extension module '_random' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_random.cpython-35m-darwin.so'
+# extension module '_random' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_random.cpython-35m-darwin.so'
+import '_random' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101f12cc0>
+import 'random' # <_frozen_importlib_external.SourceFileLoader object at 0x101ebb940>
+import 'tempfile' # <_frozen_importlib_external.SourceFileLoader object at 0x101eabc50>
+# extension module '_multiprocessing' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_multiprocessing.cpython-35m-darwin.so'
+# extension module '_multiprocessing' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_multiprocessing.cpython-35m-darwin.so'
+import '_multiprocessing' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101f12da0>
+# /Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/reduction.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/multiprocessing/reduction.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/reduction.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/pickle.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/pickle.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/pickle.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/_compat_pickle.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/_compat_pickle.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/_compat_pickle.cpython-35.pyc'
+import '_compat_pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x101f8e208>
+# extension module '_pickle' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_pickle.cpython-35m-darwin.so'
+# extension module '_pickle' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_pickle.cpython-35m-darwin.so'
+import '_pickle' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101f951d0>
+import 'pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x101f772b0>
+# extension module 'array' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/array.cpython-35m-darwin.so'
+# extension module 'array' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/array.cpython-35m-darwin.so'
+import 'array' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101f83f98>
+import 'multiprocessing.reduction' # <_frozen_importlib_external.SourceFileLoader object at 0x101f160f0>
+# /Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/util.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/multiprocessing/util.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/multiprocessing/__pycache__/util.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/subprocess.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/subprocess.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/subprocess.cpython-35.pyc'
+# extension module '_posixsubprocess' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_posixsubprocess.cpython-35m-darwin.so'
+# extension module '_posixsubprocess' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_posixsubprocess.cpython-35m-darwin.so'
+import '_posixsubprocess' # <_frozen_importlib_external.ExtensionFileLoader object at 0x101fa2f98>
+import 'subprocess' # <_frozen_importlib_external.SourceFileLoader object at 0x101f95be0>
+import 'multiprocessing.util' # <_frozen_importlib_external.SourceFileLoader object at 0x101f16a58>
+import 'multiprocessing.connection' # <_frozen_importlib_external.SourceFileLoader object at 0x101e04cc0>
+import 'concurrent.futures.process' # <_frozen_importlib_external.SourceFileLoader object at 0x101cfe550>
+# /Users/rjt/anaconda/lib/python3.5/concurrent/futures/__pycache__/thread.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/concurrent/futures/thread.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/concurrent/futures/__pycache__/thread.cpython-35.pyc'
+import 'concurrent.futures.thread' # <_frozen_importlib_external.SourceFileLoader object at 0x101e325c0>
+import 'concurrent.futures' # <_frozen_importlib_external.SourceFileLoader object at 0x101c79828>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/inspect.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/inspect.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/inspect.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/ast.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/ast.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/ast.cpython-35.pyc'
+import '_ast' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ast' # <_frozen_importlib_external.SourceFileLoader object at 0x103297a90>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/dis.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/dis.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/dis.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/opcode.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/opcode.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/opcode.cpython-35.pyc'
+# extension module '_opcode' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_opcode.cpython-35m-darwin.so'
+# extension module '_opcode' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_opcode.cpython-35m-darwin.so'
+import '_opcode' # <_frozen_importlib_external.ExtensionFileLoader object at 0x1032c0978>
+import 'opcode' # <_frozen_importlib_external.SourceFileLoader object at 0x1032c0240>
+import 'dis' # <_frozen_importlib_external.SourceFileLoader object at 0x1032b7588>
+# /Users/rjt/anaconda/lib/python3.5/importlib/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/importlib/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/importlib/__pycache__/__init__.cpython-35.pyc'
+import 'importlib' # <_frozen_importlib_external.SourceFileLoader object at 0x1032c6160>
+# /Users/rjt/anaconda/lib/python3.5/importlib/__pycache__/machinery.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/importlib/machinery.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/importlib/__pycache__/machinery.cpython-35.pyc'
+import 'importlib.machinery' # <_frozen_importlib_external.SourceFileLoader object at 0x1032c5dd8>
+import 'inspect' # <_frozen_importlib_external.SourceFileLoader object at 0x101e32780>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/compat.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/compat.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/compat.cpython-35.pyc'
+import 'asyncio.compat' # <_frozen_importlib_external.SourceFileLoader object at 0x1032f7438>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/coroutines.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/coroutines.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/coroutines.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/events.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/events.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/events.cpython-35.pyc'
+import 'asyncio.events' # <_frozen_importlib_external.SourceFileLoader object at 0x1032db4e0>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/futures.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/futures.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/futures.cpython-35.pyc'
+import 'asyncio.futures' # <_frozen_importlib_external.SourceFileLoader object at 0x1032f5908>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/log.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/log.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/log.cpython-35.pyc'
+import 'asyncio.log' # <_frozen_importlib_external.SourceFileLoader object at 0x1033002e8>
+import 'asyncio.coroutines' # <_frozen_importlib_external.SourceFileLoader object at 0x1032f75c0>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/tasks.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/tasks.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/tasks.cpython-35.pyc'
+import 'asyncio.tasks' # <_frozen_importlib_external.SourceFileLoader object at 0x1032db2e8>
+import 'asyncio.base_events' # <_frozen_importlib_external.SourceFileLoader object at 0x101c61358>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/locks.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/locks.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/locks.cpython-35.pyc'
+import 'asyncio.locks' # <_frozen_importlib_external.SourceFileLoader object at 0x1032f7b38>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/protocols.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/protocols.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/protocols.cpython-35.pyc'
+import 'asyncio.protocols' # <_frozen_importlib_external.SourceFileLoader object at 0x103311c88>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/queues.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/queues.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/queues.cpython-35.pyc'
+import 'asyncio.queues' # <_frozen_importlib_external.SourceFileLoader object at 0x103311d68>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/streams.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/streams.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/streams.cpython-35.pyc'
+import 'asyncio.streams' # <_frozen_importlib_external.SourceFileLoader object at 0x10331e978>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/subprocess.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/subprocess.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/subprocess.cpython-35.pyc'
+import 'asyncio.subprocess' # <_frozen_importlib_external.SourceFileLoader object at 0x103327be0>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/transports.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/transports.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/transports.cpython-35.pyc'
+import 'asyncio.transports' # <_frozen_importlib_external.SourceFileLoader object at 0x10332f4a8>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/unix_events.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/unix_events.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/unix_events.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/base_subprocess.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/base_subprocess.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/base_subprocess.cpython-35.pyc'
+import 'asyncio.base_subprocess' # <_frozen_importlib_external.SourceFileLoader object at 0x103345208>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/constants.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/constants.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/constants.cpython-35.pyc'
+import 'asyncio.constants' # <_frozen_importlib_external.SourceFileLoader object at 0x103345f98>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/selector_events.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/selector_events.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/selector_events.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/ssl.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/ssl.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/ssl.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/ipaddress.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/ipaddress.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/ipaddress.cpython-35.pyc'
+import 'ipaddress' # <_frozen_importlib_external.SourceFileLoader object at 0x10336f9e8>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/textwrap.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/textwrap.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/textwrap.cpython-35.pyc'
+import 'textwrap' # <_frozen_importlib_external.SourceFileLoader object at 0x103381eb8>
+# extension module '_ssl' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_ssl.cpython-35m-darwin.so'
+# extension module '_ssl' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_ssl.cpython-35m-darwin.so'
+import '_ssl' # <_frozen_importlib_external.ExtensionFileLoader object at 0x1033a7ac8>
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/base64.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/base64.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/base64.cpython-35.pyc'
+# extension module 'binascii' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/binascii.cpython-35m-darwin.so'
+# extension module 'binascii' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/binascii.cpython-35m-darwin.so'
+import 'binascii' # <_frozen_importlib_external.ExtensionFileLoader object at 0x1033bae10>
+import 'base64' # <_frozen_importlib_external.SourceFileLoader object at 0x1033a7f28>
+import 'ssl' # <_frozen_importlib_external.SourceFileLoader object at 0x1033595f8>
+# /Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/sslproto.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/asyncio/sslproto.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/asyncio/__pycache__/sslproto.cpython-35.pyc'
+import 'asyncio.sslproto' # <_frozen_importlib_external.SourceFileLoader object at 0x103501f60>
+import 'asyncio.selector_events' # <_frozen_importlib_external.SourceFileLoader object at 0x10334c080>
+import 'asyncio.unix_events' # <_frozen_importlib_external.SourceFileLoader object at 0x10332fda0>
+import 'asyncio' # <_frozen_importlib_external.SourceFileLoader object at 0x101c3def0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/observable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/observable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/observable.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/observer.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/observer.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/observer.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/abstractobserver.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/abstractobserver.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/abstractobserver.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/priorityqueue.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/priorityqueue.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/priorityqueue.cpython-35.pyc'
+import 'rx.internal.priorityqueue' # <_frozen_importlib_external.SourceFileLoader object at 0x10351f630>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/basic.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/basic.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/basic.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/__pycache__/datetime.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/datetime.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/__pycache__/datetime.cpython-35.pyc'
+# extension module '_datetime' loaded from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_datetime.cpython-35m-darwin.so'
+# extension module '_datetime' executed from '/Users/rjt/anaconda/lib/python3.5/lib-dynload/_datetime.cpython-35m-darwin.so'
+import '_datetime' # <_frozen_importlib_external.ExtensionFileLoader object at 0x103541eb8>
+import 'datetime' # <_frozen_importlib_external.SourceFileLoader object at 0x10351fc50>
+import 'rx.internal.basic' # <_frozen_importlib_external.SourceFileLoader object at 0x10351f898>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/exceptions.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/exceptions.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/exceptions.cpython-35.pyc'
+import 'rx.internal.exceptions' # <_frozen_importlib_external.SourceFileLoader object at 0x10351fcf8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/extensionmethod.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/extensionmethod.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/extensionmethod.cpython-35.pyc'
+import 'rx.internal.extensionmethod' # <_frozen_importlib_external.SourceFileLoader object at 0x103526128>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/enumerable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/enumerable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/enumerable.cpython-35.pyc'
+import 'rx.internal.enumerable' # <_frozen_importlib_external.SourceFileLoader object at 0x1035261d0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/enumerator.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/enumerator.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/enumerator.cpython-35.pyc'
+import 'rx.internal.enumerator' # <_frozen_importlib_external.SourceFileLoader object at 0x1035376a0>
+import 'rx.internal' # <_frozen_importlib_external.SourceFileLoader object at 0x10351f470>
+import 'rx.abstractobserver' # <_frozen_importlib_external.SourceFileLoader object at 0x10351f198>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/anonymousobserver.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/anonymousobserver.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/anonymousobserver.cpython-35.pyc'
+import 'rx.anonymousobserver' # <_frozen_importlib_external.SourceFileLoader object at 0x10351f390>
+import 'rx.observer' # <_frozen_importlib_external.SourceFileLoader object at 0x103506fd0>
+import 'rx.observable' # <_frozen_importlib_external.SourceFileLoader object at 0x103506e10>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/anonymousobservable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/anonymousobservable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/anonymousobservable.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/scheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/scheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/scheduler.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/disposable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/disposable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/disposable.cpython-35.pyc'
+import 'rx.disposables.disposable' # <_frozen_importlib_external.SourceFileLoader object at 0x10352d978>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/booleandisposable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/booleandisposable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/booleandisposable.cpython-35.pyc'
+import 'rx.disposables.booleandisposable' # <_frozen_importlib_external.SourceFileLoader object at 0x10352d160>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/compositedisposable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/compositedisposable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/compositedisposable.cpython-35.pyc'
+import 'rx.disposables.compositedisposable' # <_frozen_importlib_external.SourceFileLoader object at 0x10352dc88>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/singleassignmentdisposable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/singleassignmentdisposable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/singleassignmentdisposable.cpython-35.pyc'
+import 'rx.disposables.singleassignmentdisposable' # <_frozen_importlib_external.SourceFileLoader object at 0x10352d7f0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/serialdisposable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/serialdisposable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/serialdisposable.cpython-35.pyc'
+import 'rx.disposables.serialdisposable' # <_frozen_importlib_external.SourceFileLoader object at 0x10352d630>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/refcountdisposable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/refcountdisposable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/refcountdisposable.cpython-35.pyc'
+import 'rx.disposables.refcountdisposable' # <_frozen_importlib_external.SourceFileLoader object at 0x1035414e0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/scheduleddisposable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/scheduleddisposable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/disposables/__pycache__/scheduleddisposable.cpython-35.pyc'
+import 'rx.disposables.scheduleddisposable' # <_frozen_importlib_external.SourceFileLoader object at 0x103541c50>
+import 'rx.disposables' # <_frozen_importlib_external.SourceFileLoader object at 0x103537438>
+import 'rx.concurrency.scheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x103537e80>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/scheduleditem.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/scheduleditem.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/scheduleditem.cpython-35.pyc'
+import 'rx.concurrency.scheduleditem' # <_frozen_importlib_external.SourceFileLoader object at 0x10352d940>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/immediatescheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/immediatescheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/immediatescheduler.cpython-35.pyc'
+import 'rx.concurrency.immediatescheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x103541128>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/currentthreadscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/currentthreadscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/currentthreadscheduler.cpython-35.pyc'
+import 'rx.concurrency.currentthreadscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x1035417b8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/virtualtimescheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/virtualtimescheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/virtualtimescheduler.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/scheduleperiodicrecursive.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/scheduleperiodicrecursive.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/scheduleperiodicrecursive.cpython-35.pyc'
+import 'rx.concurrency.scheduleperiodicrecursive' # <_frozen_importlib_external.SourceFileLoader object at 0x103545978>
+import 'rx.concurrency.virtualtimescheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x1035454a8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/timeoutscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/timeoutscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/timeoutscheduler.cpython-35.pyc'
+import 'rx.concurrency.timeoutscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x103545c18>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/newthreadscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/newthreadscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/newthreadscheduler.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/eventloopscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/eventloopscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/eventloopscheduler.cpython-35.pyc'
+import 'rx.concurrency.eventloopscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x103556240>
+import 'rx.concurrency.newthreadscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x103556080>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/historicalscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/historicalscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/historicalscheduler.cpython-35.pyc'
+import 'rx.concurrency.historicalscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x103556588>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/catchscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/catchscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/__pycache__/catchscheduler.cpython-35.pyc'
+import 'rx.concurrency.catchscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x1035569e8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/asyncioscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/asyncioscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/asyncioscheduler.cpython-35.pyc'
+import 'rx.concurrency.mainloopscheduler.asyncioscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x10355d128>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/ioloopscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/ioloopscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/ioloopscheduler.cpython-35.pyc'
+import 'rx.concurrency.mainloopscheduler.ioloopscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x10355d780>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/geventscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/geventscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/geventscheduler.cpython-35.pyc'
+import 'rx.concurrency.mainloopscheduler.geventscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x10355dc88>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/twistedscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/twistedscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/twistedscheduler.cpython-35.pyc'
+import 'rx.concurrency.mainloopscheduler.twistedscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x103563278>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/tkinterscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/tkinterscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/tkinterscheduler.cpython-35.pyc'
+import 'rx.concurrency.mainloopscheduler.tkinterscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x1035636d8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/pygamescheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/pygamescheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/pygamescheduler.cpython-35.pyc'
+import 'rx.concurrency.mainloopscheduler.pygamescheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x103563b70>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/qtscheduler.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/qtscheduler.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/concurrency/mainloopscheduler/__pycache__/qtscheduler.cpython-35.pyc'
+import 'rx.concurrency.mainloopscheduler.qtscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x103563eb8>
+import 'rx.concurrency.mainloopscheduler' # <_frozen_importlib_external.SourceFileLoader object at 0x103556da0>
+import 'rx.concurrency' # <_frozen_importlib_external.SourceFileLoader object at 0x10351f438>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/autodetachobserver.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/autodetachobserver.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/autodetachobserver.cpython-35.pyc'
+import 'rx.autodetachobserver' # <_frozen_importlib_external.SourceFileLoader object at 0x103556f28>
+import 'rx.anonymousobservable' # <_frozen_importlib_external.SourceFileLoader object at 0x103506f28>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/checkedobserver.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/checkedobserver.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/checkedobserver.cpython-35.pyc'
+import 'rx.checkedobserver' # <_frozen_importlib_external.SourceFileLoader object at 0x10351f358>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/all.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/all.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/all.cpython-35.pyc'
+import 'rx.linq.observable.all' # <_frozen_importlib_external.SourceFileLoader object at 0x103575400>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/amb.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/amb.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/amb.cpython-35.pyc'
+import 'rx.linq.observable.amb' # <_frozen_importlib_external.SourceFileLoader object at 0x103575668>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/and_.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/and_.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/and_.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__pycache__/pattern.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/pattern.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__pycache__/pattern.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__pycache__/plan.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/plan.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__pycache__/plan.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__pycache__/activeplan.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/activeplan.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__pycache__/activeplan.cpython-35.pyc'
+import 'rx.joins.activeplan' # <_frozen_importlib_external.SourceFileLoader object at 0x10357d588>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__pycache__/joinobserver.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/joinobserver.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/joins/__pycache__/joinobserver.cpython-35.pyc'
+import 'rx.joins.joinobserver' # <_frozen_importlib_external.SourceFileLoader object at 0x10357d668>
+import 'rx.joins.plan' # <_frozen_importlib_external.SourceFileLoader object at 0x10357d240>
+import 'rx.joins.pattern' # <_frozen_importlib_external.SourceFileLoader object at 0x103575ef0>
+import 'rx.joins' # <_frozen_importlib_external.SourceFileLoader object at 0x103575be0>
+import 'rx.linq.observable.and_' # <_frozen_importlib_external.SourceFileLoader object at 0x103575940>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/some.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/some.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/some.cpython-35.pyc'
+import 'rx.linq.observable.some' # <_frozen_importlib_external.SourceFileLoader object at 0x103575cc0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/asobservable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/asobservable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/asobservable.cpython-35.pyc'
+import 'rx.linq.observable.asobservable' # <_frozen_importlib_external.SourceFileLoader object at 0x103575ac8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/average.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/average.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/average.cpython-35.pyc'
+import 'rx.linq.observable.average' # <_frozen_importlib_external.SourceFileLoader object at 0x10357d908>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/buffer.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/buffer.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/buffer.cpython-35.pyc'
+import 'rx.linq.observable.buffer' # <_frozen_importlib_external.SourceFileLoader object at 0x10357dac8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/bufferwithtime.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/bufferwithtime.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/bufferwithtime.cpython-35.pyc'
+import 'rx.linq.observable.bufferwithtime' # <_frozen_importlib_external.SourceFileLoader object at 0x10357deb8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/bufferwithtimeorcount.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/bufferwithtimeorcount.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/bufferwithtimeorcount.cpython-35.pyc'
+import 'rx.linq.observable.bufferwithtimeorcount' # <_frozen_importlib_external.SourceFileLoader object at 0x10359e080>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/case.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/case.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/case.cpython-35.pyc'
+import 'rx.linq.observable.case' # <_frozen_importlib_external.SourceFileLoader object at 0x10359e1d0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/catch.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/catch.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/catch.cpython-35.pyc'
+import 'rx.linq.observable.catch' # <_frozen_importlib_external.SourceFileLoader object at 0x10359e2e8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/concat.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/concat.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/concat.cpython-35.pyc'
+import 'rx.linq.observable.concat' # <_frozen_importlib_external.SourceFileLoader object at 0x10359e6d8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/contains.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/contains.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/contains.cpython-35.pyc'
+import 'rx.linq.observable.contains' # <_frozen_importlib_external.SourceFileLoader object at 0x10359e9e8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/combinelatest.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/combinelatest.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/combinelatest.cpython-35.pyc'
+import 'rx.linq.observable.combinelatest' # <_frozen_importlib_external.SourceFileLoader object at 0x10359eac8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/count.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/count.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/count.cpython-35.pyc'
+import 'rx.linq.observable.count' # <_frozen_importlib_external.SourceFileLoader object at 0x10359edd8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/create.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/create.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/create.cpython-35.pyc'
+import 'rx.linq.observable.create' # <_frozen_importlib_external.SourceFileLoader object at 0x10359ee48>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/debounce.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/debounce.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/debounce.cpython-35.pyc'
+import 'rx.linq.observable.debounce' # <_frozen_importlib_external.SourceFileLoader object at 0x10359ef98>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/defaultifempty.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/defaultifempty.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/defaultifempty.cpython-35.pyc'
+import 'rx.linq.observable.defaultifempty' # <_frozen_importlib_external.SourceFileLoader object at 0x1035a52b0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/defer.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/defer.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/defer.cpython-35.pyc'
+import 'rx.linq.observable.defer' # <_frozen_importlib_external.SourceFileLoader object at 0x1035a5390>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/delay.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/delay.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/delay.cpython-35.pyc'
+import 'rx.linq.observable.delay' # <_frozen_importlib_external.SourceFileLoader object at 0x1035a55c0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/delaysubscription.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/delaysubscription.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/delaysubscription.cpython-35.pyc'
+import 'rx.linq.observable.delaysubscription' # <_frozen_importlib_external.SourceFileLoader object at 0x1035a57f0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/delaywithselector.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/delaywithselector.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/delaywithselector.cpython-35.pyc'
+import 'rx.linq.observable.delaywithselector' # <_frozen_importlib_external.SourceFileLoader object at 0x1035a5908>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/dematerialize.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/dematerialize.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/dematerialize.cpython-35.pyc'
+import 'rx.linq.observable.dematerialize' # <_frozen_importlib_external.SourceFileLoader object at 0x1035a5c50>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/distinct.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/distinct.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/distinct.cpython-35.pyc'
+import 'rx.linq.observable.distinct' # <_frozen_importlib_external.SourceFileLoader object at 0x1035a5e80>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/distinctuntilchanged.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/distinctuntilchanged.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/distinctuntilchanged.cpython-35.pyc'
+import 'rx.linq.observable.distinctuntilchanged' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b20f0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/doaction.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/doaction.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/doaction.cpython-35.pyc'
+import 'rx.linq.observable.doaction' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b2198>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/dowhile.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/dowhile.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/dowhile.cpython-35.pyc'
+import 'rx.linq.observable.dowhile' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b2438>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/elementat.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/elementat.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/elementat.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/elementatordefault.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/elementatordefault.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/elementatordefault.cpython-35.pyc'
+import 'rx.linq.observable.elementatordefault' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b25f8>
+import 'rx.linq.observable.elementat' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b2400>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/empty.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/empty.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/empty.cpython-35.pyc'
+import 'rx.linq.observable.empty' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b2780>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/exclusive.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/exclusive.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/exclusive.cpython-35.pyc'
+import 'rx.linq.observable.exclusive' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b2940>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/expand.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/expand.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/expand.cpython-35.pyc'
+import 'rx.linq.observable.expand' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b2b38>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/finallyaction.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/finallyaction.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/finallyaction.cpython-35.pyc'
+import 'rx.linq.observable.finallyaction' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b2d30>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/find.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/find.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/find.cpython-35.pyc'
+import 'rx.linq.observable.find' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b2e80>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/findindex.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/findindex.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/findindex.cpython-35.pyc'
+import 'rx.linq.observable.findindex' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b2fd0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/first.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/first.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/first.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/firstordefault.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/firstordefault.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/firstordefault.cpython-35.pyc'
+import 'rx.linq.observable.firstordefault' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b8208>
+import 'rx.linq.observable.first' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b8128>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/forin.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/forin.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/forin.cpython-35.pyc'
+import 'rx.linq.observable.forin' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b8470>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/fromiterable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/fromiterable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/fromiterable.cpython-35.pyc'
+import 'rx.linq.observable.fromiterable' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b8518>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/fromcallback.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/fromcallback.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/fromcallback.cpython-35.pyc'
+import 'rx.linq.observable.fromcallback' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b85f8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/fromfuture.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/fromfuture.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/fromfuture.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/utils.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/utils.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/internal/__pycache__/utils.cpython-35.pyc'
+import 'rx.internal.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b8b00>
+import 'rx.linq.observable.fromfuture' # <_frozen_importlib_external.SourceFileLoader object at 0x1035b8748>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/generate.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/generate.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/generate.cpython-35.pyc'
+import 'rx.linq.observable.generate' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c0198>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/generatewithrelativetime.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/generatewithrelativetime.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/generatewithrelativetime.cpython-35.pyc'
+import 'rx.linq.observable.generatewithrelativetime' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c0278>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/groupby.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/groupby.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/groupby.cpython-35.pyc'
+import 'rx.linq.observable.groupby' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c0390>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/groupbyuntil.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/groupbyuntil.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/groupbyuntil.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/subject.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/subject.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/subject.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/anonymoussubject.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/anonymoussubject.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/anonymoussubject.cpython-35.pyc'
+import 'rx.subjects.anonymoussubject' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c71d0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/innersubscription.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/innersubscription.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/innersubscription.cpython-35.pyc'
+import 'rx.subjects.innersubscription' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c7550>
+import 'rx.subjects.subject' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c0be0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/behaviorsubject.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/behaviorsubject.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/behaviorsubject.cpython-35.pyc'
+import 'rx.subjects.behaviorsubject' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c70f0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/replaysubject.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/replaysubject.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/replaysubject.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/scheduledobserver.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/scheduledobserver.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/scheduledobserver.cpython-35.pyc'
+import 'rx.scheduledobserver' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c7cc0>
+import 'rx.subjects.replaysubject' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c77f0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/asyncsubject.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/asyncsubject.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/subjects/__pycache__/asyncsubject.cpython-35.pyc'
+import 'rx.subjects.asyncsubject' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c7b70>
+import 'rx.subjects' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c0908>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/__pycache__/groupedobservable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/groupedobservable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/__pycache__/groupedobservable.cpython-35.pyc'
+import 'rx.linq.groupedobservable' # <_frozen_importlib_external.SourceFileLoader object at 0x1035cd198>
+import 'rx.linq.observable.groupbyuntil' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c0438>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/groupjoin.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/groupjoin.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/groupjoin.cpython-35.pyc'
+import 'rx.linq.observable.groupjoin' # <_frozen_importlib_external.SourceFileLoader object at 0x1035c07f0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/ifthen.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/ifthen.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/ifthen.cpython-35.pyc'
+import 'rx.linq.observable.ifthen' # <_frozen_importlib_external.SourceFileLoader object at 0x1035cd438>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/ignoreelements.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/ignoreelements.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/ignoreelements.cpython-35.pyc'
+import 'rx.linq.observable.ignoreelements' # <_frozen_importlib_external.SourceFileLoader object at 0x1035cd518>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/interval.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/interval.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/interval.cpython-35.pyc'
+import 'rx.linq.observable.interval' # <_frozen_importlib_external.SourceFileLoader object at 0x1035cd668>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/isempty.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/isempty.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/isempty.cpython-35.pyc'
+import 'rx.linq.observable.isempty' # <_frozen_importlib_external.SourceFileLoader object at 0x1035cd7b8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/join.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/join.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/join.cpython-35.pyc'
+import 'rx.linq.observable.join' # <_frozen_importlib_external.SourceFileLoader object at 0x1035cd8d0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/last.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/last.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/last.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/lastordefault.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/lastordefault.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/lastordefault.cpython-35.pyc'
+import 'rx.linq.observable.lastordefault' # <_frozen_importlib_external.SourceFileLoader object at 0x1035cdb70>
+import 'rx.linq.observable.last' # <_frozen_importlib_external.SourceFileLoader object at 0x1035cda90>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/let.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/let.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/let.cpython-35.pyc'
+import 'rx.linq.observable.let' # <_frozen_importlib_external.SourceFileLoader object at 0x1035cdc88>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/manyselect.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/manyselect.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/manyselect.cpython-35.pyc'
+import 'rx.linq.observable.manyselect' # <_frozen_importlib_external.SourceFileLoader object at 0x1035cdc50>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/materialize.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/materialize.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/materialize.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/notification.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/notification.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/notification.cpython-35.pyc'
+import 'rx.notification' # <_frozen_importlib_external.SourceFileLoader object at 0x1035da630>
+import 'rx.linq.observable.materialize' # <_frozen_importlib_external.SourceFileLoader object at 0x1035da160>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/merge.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/merge.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/merge.cpython-35.pyc'
+import 'rx.linq.observable.merge' # <_frozen_importlib_external.SourceFileLoader object at 0x1035dd4a8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/max.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/max.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/max.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/min.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/min.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/min.cpython-35.pyc'
+import 'rx.linq.observable.min' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ddcc0>
+import 'rx.linq.observable.max' # <_frozen_importlib_external.SourceFileLoader object at 0x1035dda58>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/maxby.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/maxby.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/maxby.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/minby.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/minby.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/minby.cpython-35.pyc'
+import 'rx.linq.observable.minby' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ddf60>
+import 'rx.linq.observable.maxby' # <_frozen_importlib_external.SourceFileLoader object at 0x1035dde48>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/multicast.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/multicast.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/multicast.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/__pycache__/connectableobservable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/connectableobservable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/__pycache__/connectableobservable.cpython-35.pyc'
+import 'rx.linq.connectableobservable' # <_frozen_importlib_external.SourceFileLoader object at 0x1035e6208>
+import 'rx.linq.observable.multicast' # <_frozen_importlib_external.SourceFileLoader object at 0x1035e60b8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/never.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/never.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/never.cpython-35.pyc'
+import 'rx.linq.observable.never' # <_frozen_importlib_external.SourceFileLoader object at 0x1035e64a8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/observeon.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/observeon.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/observeon.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/observeonobserver.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/observeonobserver.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/observeonobserver.cpython-35.pyc'
+import 'rx.observeonobserver' # <_frozen_importlib_external.SourceFileLoader object at 0x1035e6860>
+import 'rx.linq.observable.observeon' # <_frozen_importlib_external.SourceFileLoader object at 0x1035e6630>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/onerrorresumenext.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/onerrorresumenext.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/onerrorresumenext.cpython-35.pyc'
+import 'rx.linq.observable.onerrorresumenext' # <_frozen_importlib_external.SourceFileLoader object at 0x1035e67b8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/of.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/of.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/of.cpython-35.pyc'
+import 'rx.linq.observable.of' # <_frozen_importlib_external.SourceFileLoader object at 0x1035e6d30>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/pairwise.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/pairwise.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/pairwise.cpython-35.pyc'
+import 'rx.linq.observable.pairwise' # <_frozen_importlib_external.SourceFileLoader object at 0x1035e6da0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/partition.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/partition.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/partition.cpython-35.pyc'
+import 'rx.linq.observable.partition' # <_frozen_importlib_external.SourceFileLoader object at 0x1035e6e48>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/pluck.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/pluck.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/pluck.cpython-35.pyc'
+import 'rx.linq.observable.pluck' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ef080>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/publish.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/publish.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/publish.cpython-35.pyc'
+import 'rx.linq.observable.publish' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ef320>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/publishvalue.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/publishvalue.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/publishvalue.cpython-35.pyc'
+import 'rx.linq.observable.publishvalue' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ef4e0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/range.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/range.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/range.cpython-35.pyc'
+import 'rx.linq.observable.range' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ef6a0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/reduce.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/reduce.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/reduce.cpython-35.pyc'
+import 'rx.linq.observable.reduce' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ef828>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/repeat.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/repeat.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/repeat.cpython-35.pyc'
+import 'rx.linq.observable.repeat' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ef898>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/replay.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/replay.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/replay.cpython-35.pyc'
+import 'rx.linq.observable.replay' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ef9e8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/retry.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/retry.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/retry.cpython-35.pyc'
+import 'rx.linq.observable.retry' # <_frozen_importlib_external.SourceFileLoader object at 0x1035efb38>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/returnvalue.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/returnvalue.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/returnvalue.cpython-35.pyc'
+import 'rx.linq.observable.returnvalue' # <_frozen_importlib_external.SourceFileLoader object at 0x1035efba8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/scan.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/scan.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/scan.cpython-35.pyc'
+import 'rx.linq.observable.scan' # <_frozen_importlib_external.SourceFileLoader object at 0x1035efdd8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/sample.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/sample.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/sample.cpython-35.pyc'
+import 'rx.linq.observable.sample' # <_frozen_importlib_external.SourceFileLoader object at 0x1035efeb8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/select.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/select.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/select.cpython-35.pyc'
+import 'rx.linq.observable.select' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6198>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/selectswitch.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/selectswitch.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/selectswitch.cpython-35.pyc'
+import 'rx.linq.observable.selectswitch' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6160>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/selectmany.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/selectmany.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/selectmany.cpython-35.pyc'
+import 'rx.linq.observable.selectmany' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6278>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/sequenceequal.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/sequenceequal.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/sequenceequal.cpython-35.pyc'
+import 'rx.linq.observable.sequenceequal' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f64a8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/single.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/single.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/single.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/singleordefault.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/singleordefault.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/singleordefault.cpython-35.pyc'
+import 'rx.linq.observable.singleordefault' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6828>
+import 'rx.linq.observable.single' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6710>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skip.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/skip.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skip.cpython-35.pyc'
+import 'rx.linq.observable.skip' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6940>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skiplast.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/skiplast.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skiplast.cpython-35.pyc'
+import 'rx.linq.observable.skiplast' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6908>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skiplastwithtime.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/skiplastwithtime.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skiplastwithtime.cpython-35.pyc'
+import 'rx.linq.observable.skiplastwithtime' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f69e8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skipuntil.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/skipuntil.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skipuntil.cpython-35.pyc'
+import 'rx.linq.observable.skipuntil' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6a90>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skipuntilwithtime.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/skipuntilwithtime.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skipuntilwithtime.cpython-35.pyc'
+import 'rx.linq.observable.skipuntilwithtime' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6da0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skipwhile.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/skipwhile.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skipwhile.cpython-35.pyc'
+import 'rx.linq.observable.skipwhile' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6f28>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skipwithtime.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/skipwithtime.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/skipwithtime.cpython-35.pyc'
+import 'rx.linq.observable.skipwithtime' # <_frozen_importlib_external.SourceFileLoader object at 0x1035f6fd0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/slice.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/slice.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/slice.cpython-35.pyc'
+import 'rx.linq.observable.slice' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ff0b8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/start.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/start.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/start.cpython-35.pyc'
+import 'rx.linq.observable.start' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ff208>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/startasync.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/startasync.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/startasync.cpython-35.pyc'
+import 'rx.linq.observable.startasync' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ff2e8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/startswith.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/startswith.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/startswith.cpython-35.pyc'
+import 'rx.linq.observable.startswith' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ff3c8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/subscribeon.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/subscribeon.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/subscribeon.cpython-35.pyc'
+import 'rx.linq.observable.subscribeon' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ff4a8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/sum.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/sum.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/sum.cpython-35.pyc'
+import 'rx.linq.observable.sum' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ff550>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/switchlatest.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/switchlatest.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/switchlatest.cpython-35.pyc'
+import 'rx.linq.observable.switchlatest' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ff5c0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/take.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/take.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/take.cpython-35.pyc'
+import 'rx.linq.observable.take' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ff940>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takelast.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/takelast.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takelast.cpython-35.pyc'
+import 'rx.linq.observable.takelast' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ff908>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takelastbuffer.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/takelastbuffer.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takelastbuffer.cpython-35.pyc'
+import 'rx.linq.observable.takelastbuffer' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ffa58>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takelastwithtime.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/takelastwithtime.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takelastwithtime.cpython-35.pyc'
+import 'rx.linq.observable.takelastwithtime' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ffbe0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takeuntil.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/takeuntil.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takeuntil.cpython-35.pyc'
+import 'rx.linq.observable.takeuntil' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ffc50>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takeuntilwithtime.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/takeuntilwithtime.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takeuntilwithtime.cpython-35.pyc'
+import 'rx.linq.observable.takeuntilwithtime' # <_frozen_importlib_external.SourceFileLoader object at 0x1035ffe80>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takewhile.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/takewhile.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takewhile.cpython-35.pyc'
+import 'rx.linq.observable.takewhile' # <_frozen_importlib_external.SourceFileLoader object at 0x1035fffd0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takewithtime.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/takewithtime.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/takewithtime.cpython-35.pyc'
+import 'rx.linq.observable.takewithtime' # <_frozen_importlib_external.SourceFileLoader object at 0x10360b080>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/thendo.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/thendo.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/thendo.cpython-35.pyc'
+import 'rx.linq.observable.thendo' # <_frozen_importlib_external.SourceFileLoader object at 0x10360b1d0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/throttlefirst.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/throttlefirst.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/throttlefirst.cpython-35.pyc'
+import 'rx.linq.observable.throttlefirst' # <_frozen_importlib_external.SourceFileLoader object at 0x10360b2e8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/throw.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/throw.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/throw.cpython-35.pyc'
+import 'rx.linq.observable.throw' # <_frozen_importlib_external.SourceFileLoader object at 0x10360b400>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/timeinterval.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/timeinterval.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/timeinterval.cpython-35.pyc'
+import 'rx.linq.observable.timeinterval' # <_frozen_importlib_external.SourceFileLoader object at 0x10360b5c0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/timer.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/timer.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/timer.cpython-35.pyc'
+import 'rx.linq.observable.timer' # <_frozen_importlib_external.SourceFileLoader object at 0x10360b710>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/timeout.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/timeout.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/timeout.cpython-35.pyc'
+import 'rx.linq.observable.timeout' # <_frozen_importlib_external.SourceFileLoader object at 0x10360bc88>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/timeoutwithselector.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/timeoutwithselector.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/timeoutwithselector.cpython-35.pyc'
+import 'rx.linq.observable.timeoutwithselector' # <_frozen_importlib_external.SourceFileLoader object at 0x10360be10>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/timestamp.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/timestamp.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/timestamp.cpython-35.pyc'
+import 'rx.linq.observable.timestamp' # <_frozen_importlib_external.SourceFileLoader object at 0x1036151d0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/toasync.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/toasync.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/toasync.cpython-35.pyc'
+import 'rx.linq.observable.toasync' # <_frozen_importlib_external.SourceFileLoader object at 0x103615358>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/toblocking.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/toblocking.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/toblocking.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/blockingobservable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/blockingobservable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__pycache__/blockingobservable.cpython-35.pyc'
+import 'rx.blockingobservable' # <_frozen_importlib_external.SourceFileLoader object at 0x103615668>
+import 'rx.linq.observable.toblocking' # <_frozen_importlib_external.SourceFileLoader object at 0x103615470>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/todict.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/todict.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/todict.cpython-35.pyc'
+import 'rx.linq.observable.todict' # <_frozen_importlib_external.SourceFileLoader object at 0x103615748>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/tofuture.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/tofuture.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/tofuture.cpython-35.pyc'
+import 'rx.linq.observable.tofuture' # <_frozen_importlib_external.SourceFileLoader object at 0x103615860>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/toiterable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/toiterable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/toiterable.cpython-35.pyc'
+import 'rx.linq.observable.toiterable' # <_frozen_importlib_external.SourceFileLoader object at 0x103615ac8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/tolist.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/tolist.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/tolist.cpython-35.pyc'
+import 'rx.linq.observable.tolist' # <_frozen_importlib_external.SourceFileLoader object at 0x103615dd8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/toset.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/toset.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/toset.cpython-35.pyc'
+import 'rx.linq.observable.toset' # <_frozen_importlib_external.SourceFileLoader object at 0x103615e80>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/transduce.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/transduce.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/transduce.cpython-35.pyc'
+import 'rx.linq.observable.transduce' # <_frozen_importlib_external.SourceFileLoader object at 0x103615fd0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/using.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/using.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/using.cpython-35.pyc'
+import 'rx.linq.observable.using' # <_frozen_importlib_external.SourceFileLoader object at 0x10361c550>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/when.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/when.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/when.cpython-35.pyc'
+import 'rx.linq.observable.when' # <_frozen_importlib_external.SourceFileLoader object at 0x10361c6d8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/where.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/where.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/where.cpython-35.pyc'
+import 'rx.linq.observable.where' # <_frozen_importlib_external.SourceFileLoader object at 0x10361c8d0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/whiledo.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/whiledo.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/whiledo.cpython-35.pyc'
+import 'rx.linq.observable.whiledo' # <_frozen_importlib_external.SourceFileLoader object at 0x10361c978>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/window.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/window.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/window.cpython-35.pyc'
+import 'rx.linq.observable.window' # <_frozen_importlib_external.SourceFileLoader object at 0x10361ca58>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/windowwithcount.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/windowwithcount.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/windowwithcount.cpython-35.pyc'
+import 'rx.linq.observable.windowwithcount' # <_frozen_importlib_external.SourceFileLoader object at 0x103622048>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/windowwithtime.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/windowwithtime.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/windowwithtime.cpython-35.pyc'
+import 'rx.linq.observable.windowwithtime' # <_frozen_importlib_external.SourceFileLoader object at 0x103622208>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/windowwithtimeorcount.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/windowwithtimeorcount.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/windowwithtimeorcount.cpython-35.pyc'
+import 'rx.linq.observable.windowwithtimeorcount' # <_frozen_importlib_external.SourceFileLoader object at 0x1036225c0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/withlatestfrom.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/withlatestfrom.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/withlatestfrom.cpython-35.pyc'
+import 'rx.linq.observable.withlatestfrom' # <_frozen_importlib_external.SourceFileLoader object at 0x103622748>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/zip.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/zip.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/zip.cpython-35.pyc'
+import 'rx.linq.observable.zip' # <_frozen_importlib_external.SourceFileLoader object at 0x103622b38>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/ziparray.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/ziparray.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/__pycache__/ziparray.cpython-35.pyc'
+import 'rx.linq.observable.ziparray' # <_frozen_importlib_external.SourceFileLoader object at 0x103622fd0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/blocking/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/blocking/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/blocking/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/blocking/__pycache__/foreach.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/blocking/foreach.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/blocking/__pycache__/foreach.cpython-35.pyc'
+import 'rx.linq.observable.blocking.foreach' # <_frozen_importlib_external.SourceFileLoader object at 0x10362b400>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/blocking/__pycache__/toiterable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/blocking/toiterable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/observable/blocking/__pycache__/toiterable.cpython-35.pyc'
+import 'rx.linq.observable.blocking.toiterable' # <_frozen_importlib_external.SourceFileLoader object at 0x10362b6a0>
+import 'rx.linq.observable.blocking' # <_frozen_importlib_external.SourceFileLoader object at 0x10362b160>
+import 'rx.linq.observable' # <_frozen_importlib_external.SourceFileLoader object at 0x103569588>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/enumerable/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/enumerable/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/enumerable/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/enumerable/__pycache__/whiledo.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/enumerable/whiledo.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/linq/enumerable/__pycache__/whiledo.cpython-35.pyc'
+import 'rx.linq.enumerable.whiledo' # <_frozen_importlib_external.SourceFileLoader object at 0x10362b898>
+import 'rx.linq.enumerable' # <_frozen_importlib_external.SourceFileLoader object at 0x103570a90>
+import 'rx.linq' # <_frozen_importlib_external.SourceFileLoader object at 0x1035693c8>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/__init__.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__init__.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/__init__.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/controlledobservable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/controlledobservable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/controlledobservable.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/controlledsubject.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/controlledsubject.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/controlledsubject.cpython-35.pyc'
+import 'rx.backpressure.controlledsubject' # <_frozen_importlib_external.SourceFileLoader object at 0x10362b9e8>
+import 'rx.backpressure.controlledobservable' # <_frozen_importlib_external.SourceFileLoader object at 0x10362b208>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/pausable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/pausable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/pausable.cpython-35.pyc'
+import 'rx.backpressure.pausable' # <_frozen_importlib_external.SourceFileLoader object at 0x10362ba90>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/pausablebuffered.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/pausablebuffered.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/pausablebuffered.cpython-35.pyc'
+import 'rx.backpressure.pausablebuffered' # <_frozen_importlib_external.SourceFileLoader object at 0x10362bbe0>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/stopandwait.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/stopandwait.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/stopandwait.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/stopandwaitobservable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/stopandwaitobservable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/stopandwaitobservable.cpython-35.pyc'
+import 'rx.backpressure.stopandwaitobservable' # <_frozen_importlib_external.SourceFileLoader object at 0x10362be48>
+import 'rx.backpressure.stopandwait' # <_frozen_importlib_external.SourceFileLoader object at 0x10362bd30>
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/windowed.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/windowed.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/windowed.cpython-35.pyc'
+# /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/windowedobservable.cpython-35.pyc matches /Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/windowedobservable.py
+# code object from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/backpressure/__pycache__/windowedobservable.cpython-35.pyc'
+import 'rx.backpressure.windowedobservable' # <_frozen_importlib_external.SourceFileLoader object at 0x10362bf98>
+import 'rx.backpressure.windowed' # <_frozen_importlib_external.SourceFileLoader object at 0x10362be10>
+import 'rx.backpressure' # <_frozen_importlib_external.SourceFileLoader object at 0x103569358>
+import 'rx' # <_frozen_importlib_external.SourceFileLoader object at 0x101c3dac8>
+['/Users/rjt/anaconda/lib/python3.5/site-packages']
+/Users/rjt/anaconda/lib/python3.5/site-packages
+<module 'rx' from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__init__.py'>
+<class 'rx.observer.Observer'>
+<class 'rx.observable.Observable'>
+# clear builtins._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# clear sys.path_hooks
+# clear sys.path_importer_cache
+# clear sys.meta_path
+# clear sys.__interactivehook__
+# clear sys.flags
+# clear sys.float_info
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup[2] removing codecs
+# cleanup[2] removing rx.concurrency.mainloopscheduler.pygamescheduler
+# cleanup[2] removing re
+# cleanup[2] removing posixpath
+# cleanup[2] removing sys
+# cleanup[2] removing stat
+# cleanup[2] removing rx.blockingobservable
+# cleanup[2] removing heapq
+# cleanup[2] removing sre_constants
+# destroy sre_constants
+# cleanup[2] removing rx.backpressure.windowed
+# cleanup[2] removing asyncio.unix_events
+# cleanup[2] removing rx.linq.observable.generate
+# cleanup[2] removing rx.internal.enumerator
+# cleanup[2] removing rx.concurrency
+# cleanup[2] removing rx.linq.observable.tolist
+# cleanup[2] removing rx.linq.observable.publish
+# cleanup[2] removing rx.linq.observable.lastordefault
+# cleanup[2] removing rx.linq.observable.defer
+# cleanup[2] removing collections
+# cleanup[2] removing rx.linq.observable.toset
+# cleanup[2] removing rx.linq.observable.skiplastwithtime
+# cleanup[2] removing rx.linq.observable.timeoutwithselector
+# cleanup[2] removing genericpath
+# cleanup[2] removing rx.linq.observable.tofuture
+# cleanup[2] removing rx.autodetachobserver
+# cleanup[2] removing copyreg
+# cleanup[2] removing rx.concurrency.mainloopscheduler
+# cleanup[2] removing rx.linq.observable.findindex
+# cleanup[2] removing rx.concurrency.mainloopscheduler.qtscheduler
+# cleanup[2] removing rx.disposables
+# cleanup[2] removing base64
+# cleanup[2] removing rx.linq.observable.timer
+# cleanup[2] removing _random
+# cleanup[2] removing rx.linq.observable.delaywithselector
+# cleanup[2] removing time
+# cleanup[2] removing asyncio.constants
+# cleanup[2] removing rx.disposables.scheduleddisposable
+# cleanup[2] removing pickle
+# cleanup[2] removing rx.concurrency.mainloopscheduler.tkinterscheduler
+# cleanup[2] removing rx.linq.observable.defaultifempty
+# cleanup[2] removing atexit
+# cleanup[2] removing rx.linq.observable.slice
+# cleanup[2] removing rx.linq.observable.create
+# cleanup[2] removing rx.linq.observable.returnvalue
+# cleanup[2] removing selectors
+# cleanup[2] removing rx.linq.enumerable
+# cleanup[2] removing functools
+# cleanup[2] removing rx.disposables.booleandisposable
+# cleanup[2] removing rx.linq.observable.thendo
+# cleanup[2] removing rx.linq.observable.pluck
+# cleanup[2] removing rx.joins.pattern
+# cleanup[2] removing rx.linq.observable.throw
+# cleanup[2] removing rx.anonymousobserver
+# cleanup[2] removing distutils
+# cleanup[2] removing rx.linq.observable.when
+# cleanup[2] removing rx.linq.observable.minby
+# cleanup[2] removing rx.linq.observable.bufferwithtimeorcount
+# cleanup[2] removing _io
+# cleanup[2] removing rx.linq.observable.min
+# cleanup[2] removing rx.linq.observable.windowwithtime
+# cleanup[2] removing zope
+# destroy zope
+# cleanup[2] removing rx.linq.observable.delaysubscription
+# cleanup[2] removing _operator
+# cleanup[2] removing rx.linq.observable.find
+# cleanup[2] removing rx.internal.basic
+# cleanup[2] removing rx.concurrency.timeoutscheduler
+# cleanup[2] removing datetime
+# destroy datetime
+# cleanup[2] removing logging
+# cleanup[2] removing encodings
+# destroy encodings
+# cleanup[2] removing rx.linq.observable.windowwithcount
+# cleanup[2] removing _warnings
+# cleanup[2] removing _string
+# cleanup[2] removing rx.subjects.replaysubject
+# cleanup[2] removing rx.linq.observable.fromfuture
+# cleanup[2] removing _bz2
+# cleanup[2] removing rx.linq.observable.some
+# cleanup[2] removing rx.linq.observable.blocking.toiterable
+# cleanup[2] removing _sitebuiltins
+# cleanup[2] removing rx.linq.observable.skipwhile
+# cleanup[2] removing sre_parse
+# cleanup[2] removing rx.linq.observable.zip
+# cleanup[2] removing rx.notification
+# cleanup[2] removing rx.joins.activeplan
+# cleanup[2] removing __mp_main__
+# cleanup[2] removing rx.internal.extensionmethod
+# destroy rx.internal.extensionmethod
+# cleanup[2] removing builtins
+# cleanup[2] removing rx.linq.observable.doaction
+# cleanup[2] removing rx.linq.observable.throttlefirst
+# cleanup[2] removing rx.anonymousobservable
+# cleanup[2] removing rx.linq.observable.groupby
+# cleanup[2] removing asyncio.transports
+# cleanup[2] removing shutil
+# cleanup[2] removing rx.linq.observable.replay
+# cleanup[2] removing asyncio.selector_events
+# cleanup[2] removing tarfile
+# cleanup[2] removing rx.concurrency.mainloopscheduler.asyncioscheduler
+# cleanup[2] removing _posixsubprocess
+# cleanup[2] removing rx.linq.observable.retry
+# cleanup[2] removing rx.linq.observable.fromiterable
+# cleanup[2] removing rx.linq.observable.toiterable
+# cleanup[2] removing opcode
+# cleanup[2] removing tokenize
+# cleanup[2] removing asyncio.queues
+# cleanup[2] removing rx.concurrency.currentthreadscheduler
+# cleanup[2] removing traceback
+# cleanup[2] removing rx.concurrency.catchscheduler
+# cleanup[2] removing _lzma
+# cleanup[2] removing rx.linq.observable.distinct
+# cleanup[2] removing errno
+# cleanup[2] removing rx.linq.observable.reduce
+# cleanup[2] removing concurrent.futures._base
+# cleanup[2] removing rx.internal.priorityqueue
+# cleanup[2] removing concurrent.futures.process
+# cleanup[2] removing struct
+# cleanup[2] removing rx.scheduledobserver
+# cleanup[2] removing grp
+# cleanup[2] removing rx.backpressure.pausable
+# cleanup[2] removing ssl
+# cleanup[2] removing rx.linq.enumerable.whiledo
+# cleanup[2] removing rx.concurrency.immediatescheduler
+# cleanup[2] removing importlib.machinery
+# cleanup[2] removing sysconfig
+# destroy sysconfig
+# cleanup[2] removing _bootlocale
+# destroy _bootlocale
+# cleanup[2] removing rx.linq.observable.transduce
+# cleanup[2] removing rx.concurrency.scheduler
+# cleanup[2] removing rx.backpressure.stopandwaitobservable
+# cleanup[2] removing os.path
+# cleanup[2] removing _imp
+# cleanup[2] removing rx.backpressure.stopandwait
+# cleanup[2] removing rx.linq.observable.singleordefault
+# cleanup[2] removing abc
+# cleanup[2] removing asyncio.protocols
+# cleanup[2] removing rx.linq.observable.last
+# cleanup[2] removing rx.backpressure.pausablebuffered
+# cleanup[2] removing random
+# destroy random
+# cleanup[2] removing rx.linq.observable.takewithtime
+# cleanup[2] removing rx.linq.observable.skipwithtime
+# cleanup[2] removing rx.internal.exceptions
+# cleanup[2] removing _ssl
+# cleanup[2] removing array
+# cleanup[2] removing textwrap
+# cleanup[2] removing rx.linq.observable.max
+# cleanup[2] removing rx.subjects.innersubscription
+# cleanup[2] removing asyncio.sslproto
+# cleanup[2] removing _codecs
+# cleanup[2] removing rx.linq.observable.startasync
+# cleanup[2] removing linecache
+# cleanup[2] removing operator
+# destroy operator
+# cleanup[2] removing _locale
+# cleanup[2] removing rx.linq.observable.subscribeon
+# cleanup[2] removing rx.observer
+# cleanup[2] removing rx.concurrency.scheduleperiodicrecursive
+# cleanup[2] removing rx.concurrency.mainloopscheduler.ioloopscheduler
+# cleanup[2] removing rx.concurrency.eventloopscheduler
+# cleanup[2] removing socket
+# cleanup[2] removing subprocess
+# cleanup[2] removing _collections
+# cleanup[2] removing keyword
+# destroy keyword
+# cleanup[2] removing rx.linq.connectableobservable
+# cleanup[2] removing rx.joins
+# cleanup[2] removing rx.concurrency.historicalscheduler
+# cleanup[2] removing _sysconfigdata
+# destroy _sysconfigdata
+# cleanup[2] removing multiprocessing
+# cleanup[2] removing rx.linq.observable.timeinterval
+# cleanup[2] removing rx.linq.observable.of
+# cleanup[2] removing math
+# cleanup[2] removing multiprocessing.context
+# cleanup[2] removing rx.linq.observable.debounce
+# cleanup[2] removing rx.linq.observable.manyselect
+# cleanup[2] removing rx.subjects.anonymoussubject
+# cleanup[2] removing rx.checkedobserver
+# cleanup[2] removing rx.linq.observable.range
+# cleanup[2] removing rx.linq.observable.and_
+# cleanup[2] removing rx.backpressure.controlledobservable
+# cleanup[2] removing rx.linq.observable.window
+# cleanup[2] removing rx.linq.observable.ignoreelements
+# cleanup[2] removing rx.linq.observable.sum
+# cleanup[2] removing rx.linq.observable.groupbyuntil
+# cleanup[2] removing rx.linq.observable.selectswitch
+# cleanup[2] removing rx.linq.observable.dematerialize
+# cleanup[2] removing rx.linq.observable.sample
+# cleanup[2] removing rx.linq.observable.join
+# cleanup[2] removing ipaddress
+# cleanup[2] removing distutils.errors
+# cleanup[2] removing multiprocessing.process
+# cleanup[2] removing collections.abc
+# cleanup[2] removing encodings.latin_1
+# cleanup[2] removing multiprocessing.connection
+# cleanup[2] removing asyncio.base_subprocess
+# cleanup[2] removing importlib._bootstrap
+# cleanup[2] removing rx.linq.observable.takewhile
+# cleanup[2] removing rx.subjects
+# cleanup[2] removing __main__
+# destroy __main__
+# destroy distutils
+# destroy distutils.errors
+# cleanup[2] removing _compression
+# cleanup[2] removing _weakref
+# cleanup[2] removing rx.linq.observable.start
+# cleanup[2] removing rx.linq.observable.take
+# cleanup[2] removing queue
+# cleanup[2] removing rx.linq.observable.case
+# cleanup[2] removing asyncio.streams
+# cleanup[2] removing rx.linq.observable.takeuntilwithtime
+# cleanup[2] removing ast
+# cleanup[2] removing rx.linq.observable.all
+# cleanup[2] removing token
+# cleanup[2] removing concurrent
+# cleanup[2] removing lzma
+# destroy lzma
+# cleanup[2] removing rx.linq.observable.merge
+# cleanup[2] removing asyncio.events
+# cleanup[2] removing sre_compile
+# cleanup[2] removing rx.linq.observable.windowwithtimeorcount
+# cleanup[2] removing fnmatch
+# cleanup[2] removing rx.linq.observable.buffer
+# cleanup[2] removing rx.internal
+# cleanup[2] removing rx.linq.observable.select
+# cleanup[2] removing rx.linq.observable.ziparray
+# cleanup[2] removing _weakrefset
+# destroy _weakrefset
+# cleanup[2] removing rx.linq.observable.maxby
+# cleanup[2] removing _signal
+# cleanup[2] removing rx.linq.observable.distinctuntilchanged
+# cleanup[2] removing encodings.aliases
+# cleanup[2] removing rx.subjects.behaviorsubject
+# cleanup[2] removing rx.linq.observable.dowhile
+# cleanup[2] removing rx.linq.observable.timeout
+# cleanup[2] removing rx.linq.observable.never
+# cleanup[2] removing encodings.utf_8
+# cleanup[2] removing rx.concurrency.newthreadscheduler
+# cleanup[2] removing rx.linq.observable.firstordefault
+# cleanup[2] removing rx.joins.joinobserver
+# cleanup[2] removing hashlib
+# destroy hashlib
+# cleanup[2] removing string
+# destroy string
+# cleanup[2] removing rx.linq.observable.isempty
+# cleanup[2] removing warnings
+# cleanup[2] removing rx.linq.observable.observeon
+# cleanup[2] removing rx.linq.observable.fromcallback
+# cleanup[2] removing rx.linq.observable.blocking
+# cleanup[2] removing types
+# cleanup[2] removing asyncio.futures
+# cleanup[2] removing paste
+# destroy paste
+# cleanup[2] removing rx.subjects.asyncsubject
+# cleanup[2] removing rx.abstractobserver
+# cleanup[2] removing rx.linq.observable.elementatordefault
+# cleanup[2] removing rx.linq.observable.whiledo
+# cleanup[2] removing rx.linq.observable.sequenceequal
+# cleanup[2] removing rx.linq.observable.selectmany
+# cleanup[2] removing rx.linq.observable.skip
+# cleanup[2] removing rx.linq.observable.exclusive
+# cleanup[2] removing rx.concurrency.mainloopscheduler.twistedscheduler
+# cleanup[2] removing concurrent.futures
+# cleanup[2] removing _heapq
+# cleanup[2] removing rx.backpressure.controlledsubject
+# cleanup[2] removing rx.linq.observable.toblocking
+# cleanup[2] removing rx.observable
+# cleanup[2] removing rx.linq.observable.takelastbuffer
+# cleanup[2] removing rx.linq.observable.skipuntil
+# cleanup[2] removing rx.linq.observable.materialize
+# cleanup[2] removing distutils.sysconfig
+# destroy distutils.sysconfig
+# cleanup[2] removing rx.backpressure
+# cleanup[2] removing posix
+# cleanup[2] removing rx.linq.observable.repeat
+# cleanup[2] removing importlib._bootstrap_external
+# cleanup[2] removing rx.linq.observable.using
+# cleanup[2] removing _functools
+# cleanup[2] removing rx.linq.observable.catch
+# cleanup[2] removing _opcode
+# cleanup[2] removing asyncio.coroutines
+# cleanup[2] removing rx.linq.observable.expand
+# cleanup[2] removing rx.linq.observable.timestamp
+# cleanup[2] removing _ast
+# cleanup[2] removing rx.linq.observable.takeuntil
+# cleanup[2] removing marshal
+# cleanup[2] removing signal
+# cleanup[2] removing repoze
+# destroy repoze
+# cleanup[2] removing bz2
+# destroy bz2
+# cleanup[2] removing rx.linq.observable.toasync
+# cleanup[2] removing rx.linq.observable.bufferwithtime
+# cleanup[2] removing rx.linq.observable.takelast
+# cleanup[2] removing rx.linq.observable.finallyaction
+# cleanup[2] removing io
+# cleanup[2] removing rx.linq.observable.partition
+# cleanup[2] removing itertools
+# cleanup[2] removing rx.linq.observable.todict
+# cleanup[2] removing rx.linq.observable.let
+# cleanup[2] removing rx.linq.observable.combinelatest
+# cleanup[2] removing rx.linq.observable.blocking.foreach
+# cleanup[2] removing _collections_abc
+# cleanup[2] removing rx.disposables.refcountdisposable
+# cleanup[2] removing rx.linq.groupedobservable
+# cleanup[2] removing rx.concurrency.virtualtimescheduler
+# cleanup[2] removing asyncio.log
+# cleanup[2] removing rx.linq.observable.forin
+# cleanup[2] removing zipimport
+# cleanup[2] removing rx.internal.utils
+# cleanup[2] removing _multiprocessing
+# cleanup[2] removing rx.linq.observable.switchlatest
+# cleanup[2] removing rx.linq
+# cleanup[2] removing rx.linq.observable
+# cleanup[2] removing rx.linq.observable.withlatestfrom
+# cleanup[2] removing _frozen_importlib_external
+# cleanup[2] removing inspect
+# cleanup[2] removing rx.disposables.compositedisposable
+# cleanup[2] removing enum
+# cleanup[2] removing rx.linq.observable.multicast
+# cleanup[2] removing rx.disposables.serialdisposable
+# cleanup[2] removing dis
+# cleanup[2] removing _pickle
+# cleanup[2] removing rx.linq.observable.where
+# cleanup[2] removing rx.linq.observable.single
+# cleanup[2] removing _socket
+# cleanup[2] removing rx.linq.observable.skipuntilwithtime
+# cleanup[2] removing _thread
+# cleanup[2] removing pwd
+# cleanup[2] removing rx.concurrency.scheduleditem
+# cleanup[2] removing rx.linq.observable.interval
+# cleanup[2] removing asyncio.compat
+# cleanup[2] removing rx.disposables.singleassignmentdisposable
+# cleanup[2] removing _stat
+# cleanup[2] removing copy
+# cleanup[2] removing rx.internal.enumerable
+# cleanup[2] removing rx.linq.observable.empty
+# cleanup[2] removing weakref
+# cleanup[2] removing asyncio.locks
+# cleanup[2] removing importlib
+# cleanup[2] removing site
+# destroy site
+# cleanup[2] removing rx.linq.observable.average
+# cleanup[2] removing binascii
+# cleanup[2] removing rx.backpressure.windowedobservable
+# cleanup[2] removing rx.concurrency.mainloopscheduler.geventscheduler
+# cleanup[2] removing rx.linq.observable.concat
+# cleanup[2] removing asyncio
+# cleanup[2] removing rx.linq.observable.pairwise
+# cleanup[2] removing rx.linq.observable.startswith
+# cleanup[2] removing _compat_pickle
+# cleanup[2] removing multiprocessing.util
+# cleanup[2] removing select
+# cleanup[2] removing threading
+# cleanup[2] removing rx.linq.observable.generatewithrelativetime
+# cleanup[2] removing rx.linq.observable.first
+# cleanup[2] removing _sre
+# cleanup[2] removing rx.linq.observable.skiplast
+# cleanup[2] removing concurrent.futures.thread
+# cleanup[2] removing rx.linq.observable.groupjoin
+# cleanup[2] removing rx.linq.observable.elementat
+# cleanup[2] removing _datetime
+# cleanup[2] removing _frozen_importlib
+# cleanup[2] removing rx.linq.observable.contains
+# cleanup[2] removing rx.linq.observable.scan
+# cleanup[2] removing _struct
+# cleanup[2] removing rx.linq.observable.publishvalue
+# cleanup[2] removing _hashlib
+# cleanup[2] removing os
+# cleanup[2] removing reprlib
+# cleanup[2] removing encodings.cp437
+# cleanup[2] removing rx.subjects.subject
+# cleanup[2] removing rx.linq.observable.onerrorresumenext
+# cleanup[2] removing asyncio.base_events
+# cleanup[2] removing multiprocessing.reduction
+# cleanup[2] removing rx.linq.observable.asobservable
+# cleanup[2] removing rx.linq.observable.takelastwithtime
+# cleanup[2] removing rx.linq.observable.amb
+# cleanup[2] removing rx.linq.observable.count
+# cleanup[2] removing rx.observeonobserver
+# cleanup[2] removing rx.disposables.disposable
+# cleanup[2] removing _osx_support
+# destroy _osx_support
+# cleanup[2] removing asyncio.tasks
+# cleanup[2] removing tempfile
+# cleanup[2] removing rx
+# cleanup[2] removing rx.joins.plan
+# cleanup[2] removing rx.linq.observable.ifthen
+# cleanup[2] removing rx.linq.observable.delay
+# cleanup[2] removing asyncio.subprocess
+# destroy _datetime
+# destroy _ast
+# destroy _bz2
+# destroy zipimport
+# destroy abc
+# destroy _sitebuiltins
+# destroy _stat
+# destroy genericpath
+# destroy _locale
+# destroy sre_compile
+# destroy sre_parse
+# destroy _sre
+# destroy _functools
+# destroy _collections_abc
+# destroy collections.abc
+# destroy _operator
+# destroy _collections
+# destroy rx.disposables
+# destroy rx.disposables.singleassignmentdisposable
+# destroy rx.disposables.booleandisposable
+# destroy rx.disposables.disposable
+# destroy rx.disposables.refcountdisposable
+# destroy rx.disposables.serialdisposable
+# destroy rx.disposables.scheduleddisposable
+# destroy rx.disposables.compositedisposable
+# destroy rx.checkedobserver
+# destroy rx.observable
+# destroy rx.linq
+# destroy rx.linq.enumerable
+# destroy rx.linq.enumerable.whiledo
+# destroy rx.linq.connectableobservable
+# destroy rx.linq.observable
+# destroy rx.linq.observable.partition
+# destroy rx.linq.observable.timer
+# destroy rx.linq.observable.when
+# destroy rx.linq.observable.replay
+# destroy rx.linq.observable.isempty
+# destroy rx.linq.observable.average
+# destroy rx.linq.observable.groupby
+# destroy rx.linq.observable.empty
+# destroy rx.linq.observable.todict
+# destroy rx.linq.observable.whiledo
+# destroy rx.linq.observable.debounce
+# destroy rx.linq.observable.skiplast
+# destroy rx.linq.observable.amb
+# destroy rx.linq.observable.defaultifempty
+# destroy rx.linq.observable.window
+# destroy rx.linq.observable.takelast
+# destroy rx.linq.observable.selectmany
+# destroy rx.linq.observable.timeoutwithselector
+# destroy rx.linq.observable.takelastwithtime
+# destroy rx.linq.observable.finallyaction
+# destroy rx.linq.observable.selectswitch
+# destroy rx.linq.observable.reduce
+# destroy rx.linq.observable.delaywithselector
+# destroy rx.linq.observable.windowwithcount
+# destroy rx.linq.observable.bufferwithtime
+# destroy rx.linq.observable.join
+# destroy rx.linq.observable.bufferwithtimeorcount
+# destroy rx.linq.observable.switchlatest
+# destroy rx.linq.observable.skipwithtime
+# destroy rx.linq.observable.timeout
+# destroy rx.linq.observable.asobservable
+# destroy rx.linq.observable.dowhile
+# destroy rx.linq.observable.minby
+# destroy rx.linq.observable.max
+# destroy rx.linq.observable.doaction
+# destroy rx.linq.observable.skipwhile
+# destroy rx.linq.observable.expand
+# destroy rx.linq.observable.singleordefault
+# destroy rx.linq.observable.never
+# destroy rx.linq.observable.delaysubscription
+# destroy rx.linq.observable.skipuntil
+# destroy rx.linq.observable.distinct
+# destroy rx.linq.observable.transduce
+# destroy rx.linq.observable.fromiterable
+# destroy rx.linq.observable.publishvalue
+# destroy rx.linq.observable.contains
+# destroy rx.linq.observable.scan
+# destroy rx.linq.observable.of
+# destroy rx.linq.observable.fromcallback
+# destroy rx.linq.observable.buffer
+# destroy rx.linq.observable.min
+# destroy rx.linq.observable.merge
+# destroy rx.linq.observable.using
+# destroy rx.linq.observable.ifthen
+# destroy rx.linq.observable.create
+# destroy rx.linq.observable.manyselect
+# destroy rx.linq.observable.windowwithtime
+# destroy rx.linq.observable.maxby
+# destroy rx.linq.observable.distinctuntilchanged
+# destroy rx.linq.observable.sum
+# destroy rx.linq.observable.generatewithrelativetime
+# destroy rx.linq.observable.catch
+# destroy rx.linq.observable.generate
+# destroy rx.linq.observable.repeat
+# destroy rx.linq.observable.groupjoin
+# destroy rx.linq.observable.thendo
+# destroy rx.linq.observable.firstordefault
+# destroy rx.linq.observable.retry
+# destroy rx.linq.observable.ignoreelements
+# destroy rx.linq.observable.and_
+# destroy rx.linq.observable.blocking
+# destroy rx.linq.observable.blocking.foreach
+# destroy rx.linq.observable.blocking.toiterable
+# destroy rx.linq.observable.forin
+# destroy rx.linq.observable.startasync
+# destroy rx.linq.observable.toasync
+# destroy rx.linq.observable.single
+# destroy rx.linq.observable.withlatestfrom
+# destroy rx.linq.observable.last
+# destroy rx.linq.observable.throttlefirst
+# destroy rx.linq.observable.timeinterval
+# destroy rx.linq.observable.select
+# destroy rx.linq.observable.toblocking
+# destroy rx.linq.observable.zip
+# destroy rx.linq.observable.let
+# destroy rx.linq.observable.tolist
+# destroy rx.linq.observable.returnvalue
+# destroy rx.linq.observable.sample
+# destroy rx.linq.observable.interval
+# destroy rx.linq.observable.takelastbuffer
+# destroy rx.linq.observable.publish
+# destroy rx.linq.observable.elementat
+# destroy rx.linq.observable.ziparray
+# destroy rx.linq.observable.multicast
+# destroy rx.linq.observable.tofuture
+# destroy rx.linq.observable.some
+# destroy rx.linq.observable.takewhile
+# destroy rx.linq.observable.defer
+# destroy rx.linq.observable.take
+# destroy rx.linq.observable.lastordefault
+# destroy rx.linq.observable.startswith
+# destroy rx.linq.observable.toset
+# destroy rx.linq.observable.windowwithtimeorcount
+# destroy rx.linq.observable.findindex
+# destroy rx.linq.observable.skipuntilwithtime
+# destroy rx.linq.observable.elementatordefault
+# destroy rx.linq.observable.sequenceequal
+# destroy rx.linq.observable.takewithtime
+# destroy rx.linq.observable.timestamp
+# destroy rx.linq.observable.delay
+# destroy rx.linq.observable.first
+# destroy rx.linq.observable.materialize
+# destroy rx.linq.observable.count
+# destroy rx.linq.observable.takeuntil
+# destroy rx.linq.observable.range
+# destroy rx.linq.observable.find
+# destroy rx.linq.observable.pluck
+# destroy rx.linq.observable.dematerialize
+# destroy rx.linq.observable.concat
+# destroy rx.linq.observable.combinelatest
+# destroy rx.linq.observable.skip
+# destroy rx.linq.observable.pairwise
+# destroy rx.linq.observable.observeon
+# destroy rx.linq.observable.onerrorresumenext
+# destroy rx.linq.observable.exclusive
+# destroy rx.linq.observable.case
+# destroy rx.linq.observable.where
+# destroy rx.linq.observable.slice
+# destroy rx.linq.observable.subscribeon
+# destroy rx.linq.observable.toiterable
+# destroy rx.linq.observable.start
+# destroy rx.linq.observable.all
+# destroy rx.linq.observable.fromfuture
+# destroy rx.linq.observable.skiplastwithtime
+# destroy rx.linq.observable.groupbyuntil
+# destroy rx.linq.observable.takeuntilwithtime
+# destroy rx.linq.observable.throw
+# destroy rx.linq.groupedobservable
+# destroy asyncio
+# destroy asyncio.queues
+# destroy asyncio.log
+# destroy asyncio.unix_events
+# destroy asyncio.subprocess
+# destroy rx.scheduledobserver
+# destroy rx.concurrency
+# destroy rx.concurrency.scheduleperiodicrecursive
+# destroy rx.concurrency.scheduleditem
+# destroy rx.concurrency.newthreadscheduler
+# destroy rx.concurrency.timeoutscheduler
+# destroy rx.concurrency.virtualtimescheduler
+# destroy rx.concurrency.scheduler
+# destroy rx.concurrency.immediatescheduler
+# destroy rx.concurrency.historicalscheduler
+# destroy rx.concurrency.mainloopscheduler
+# destroy rx.concurrency.mainloopscheduler.twistedscheduler
+# destroy rx.concurrency.mainloopscheduler.ioloopscheduler
+# destroy rx.concurrency.mainloopscheduler.qtscheduler
+# destroy rx.concurrency.mainloopscheduler.geventscheduler
+# destroy rx.concurrency.mainloopscheduler.pygamescheduler
+# destroy rx.concurrency.mainloopscheduler.tkinterscheduler
+# destroy rx.concurrency.mainloopscheduler.asyncioscheduler
+# destroy rx.concurrency.eventloopscheduler
+# destroy rx.concurrency.catchscheduler
+# destroy rx.concurrency.currentthreadscheduler
+# destroy rx.joins
+# destroy rx.joins.plan
+# destroy rx.joins.pattern
+# destroy rx.joins.activeplan
+# destroy rx.joins.joinobserver
+# destroy rx.observeonobserver
+# destroy rx.abstractobserver
+# destroy rx.backpressure
+# destroy rx.backpressure.pausablebuffered
+# destroy rx.backpressure.controlledobservable
+# destroy rx.backpressure.controlledsubject
+# destroy rx.backpressure.stopandwait
+# destroy rx.backpressure.windowedobservable
+# destroy rx.backpressure.windowed
+# destroy rx.backpressure.stopandwaitobservable
+# destroy rx.backpressure.pausable
+# destroy rx.internal
+# destroy rx.internal.enumerable
+# destroy rx.internal.priorityqueue
+# destroy rx.internal.exceptions
+# destroy rx.internal.enumerator
+# destroy rx.internal.basic
+# destroy rx.internal.utils
+# destroy rx.anonymousobserver
+# destroy rx.anonymousobservable
+# destroy rx.notification
+# destroy rx.blockingobservable
+# destroy rx.subjects
+# destroy rx.subjects.replaysubject
+# destroy rx.subjects.subject
+# destroy rx.subjects.behaviorsubject
+# destroy rx.subjects.anonymoussubject
+# destroy rx.subjects.asyncsubject
+# destroy rx.subjects.innersubscription
+# destroy rx.autodetachobserver
+# destroy rx.observer
+# destroy concurrent.futures
+# destroy concurrent.futures.process
+# destroy concurrent.futures.thread
+# destroy _string
+# destroy multiprocessing
+# destroy multiprocessing.connection
+# destroy _signal
+# destroy multiprocessing.reduction
+# destroy multiprocessing.util
+# destroy tempfile
+# destroy _socket
+# destroy tarfile
+# destroy fnmatch
+# destroy posixpath
+# destroy copy
+# destroy shutil
+# destroy grp
+# destroy pwd
+# destroy _compression
+# destroy _lzma
+# destroy _random
+# destroy math
+# destroy _hashlib
+# destroy _multiprocessing
+# destroy copyreg
+# destroy pickle
+# destroy multiprocessing.context
+# destroy _compat_pickle
+# destroy _struct
+# destroy _pickle
+# destroy array
+# destroy multiprocessing.process
+# destroy select
+# destroy _posixsubprocess
+# destroy atexit
+# destroy queue
+# destroy concurrent.futures._base
+# destroy tokenize
+# destroy ast
+# destroy token
+# destroy enum
+# destroy dis
+# destroy importlib
+# destroy io
+# destroy _opcode
+# destroy importlib.machinery
+# destroy opcode
+# destroy reprlib
+# destroy inspect
+# destroy traceback
+# destroy linecache
+# destroy weakref
+# destroy concurrent
+# destroy asyncio.locks
+# destroy _heapq
+# destroy asyncio.streams
+# destroy asyncio.tasks
+# destroy stat
+# destroy asyncio.base_subprocess
+# destroy asyncio.selector_events
+# destroy signal
+# destroy asyncio.coroutines
+# destroy subprocess
+# destroy asyncio.base_events
+# destroy asyncio.sslproto
+# destroy asyncio.constants
+# destroy socket
+# destroy asyncio.futures
+# destroy selectors
+# destroy asyncio.events
+# destroy ipaddress
+# destroy base64
+# destroy textwrap
+# destroy os
+# destroy errno
+# destroy functools
+# destroy _ssl
+# destroy re
+# destroy struct
+# destroy binascii
+# destroy warnings
+# destroy asyncio.protocols
+# destroy asyncio.transports
+# destroy asyncio.compat
+# destroy ssl
+# destroy types
+# destroy heapq
+# destroy itertools
+# destroy time
+# destroy collections
+# destroy rx
+# destroy threading
+# destroy logging
+# cleanup[3] wiping codecs
+# cleanup[3] wiping _io
+# cleanup[3] wiping _warnings
+# cleanup[3] wiping _imp
+# cleanup[3] wiping _codecs
+# cleanup[3] wiping encodings.latin_1
+# cleanup[3] wiping importlib._bootstrap
+# destroy _frozen_importlib_external
+# cleanup[3] wiping _weakref
+# cleanup[3] wiping encodings.aliases
+# cleanup[3] wiping encodings.utf_8
+# cleanup[3] wiping posix
+# cleanup[3] wiping marshal
+# cleanup[3] wiping _thread
+# cleanup[3] wiping _frozen_importlib
+# cleanup[3] wiping encodings.cp437
+# cleanup[3] wiping sys
+# cleanup[3] wiping builtins

@@ -1,0 +1,5 @@
+['/Users/rjt/anaconda/lib/python3.5/site-packages']
+/Users/rjt/anaconda/lib/python3.5/site-packages
+<module 'rx' from '/Users/rjt/anaconda/lib/python3.5/site-packages/rx/__init__.py'>
+<class 'rx.observer.Observer'>
+<class 'rx.observable.Observable'>
